@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casco Inteligente para Motocicleta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="casco-page">
+
+    <header>
+        <h1>Casco Inteligente para Motocicleta</h1>
+        <nav>
+            <a href="#panel">Panel</a>
+            <a href="#galeria">Galería</a>
+            <a href="index.html">Ir al Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="panel">
+            <h2>Panel de Control</h2>
+            <p id="textoDinamico">Presiona el botón para ver el estado del casco.</p>
+            <button id="btnTexto">Mostrar estado</button>
+
+            <div class="datos">
+                <div class="dato" id="cajaCss">
+                    <h3>Ritmo cardíaco</h3>
+                    <p><span id="ritmo">--</span> bpm</p>
+                </div>
+                <div class="dato">
+                    <h3>Velocidad</h3>
+                    <p><span id="velocidad">--</span> km/h</p>
+                </div>
+                <div class="dato">
+                    <h3>Dirección</h3>
+                    <p id="direccion">--</p>
+                </div>
+            </div>
+
+            <button id="btnActualizar">Actualizar datos</button>
+            <button id="btnIzquierda">← Izquierda</button>
+            <button id="btnDerecha">Derecha →</button>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería del Casco</h2>
+            <img id="imagenIntercambio" src="img/casco1.JPG" alt="Casco inteligente">
+            <br><br>
+            <button id="btnImagen">Cambiar imagen</button>
+        </section>
+
+        <section>
+            <h2>Efecto avanzado</h2>
+            <p>Haz scroll hacia abajo para cambiar el color de fondo de la página.</p>
+            <p style="margin-top: 300px;">⬇️ ¡Sigue bajando! ⬇️</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto escolar - Fase 2 | Casco Inteligente</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

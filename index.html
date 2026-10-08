@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Registro - PAIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+    <div class="contenedor">
+
+        <div class="logo">
+            <img src="img/foto.jpg" alt="Logo">
+        </div>
+
+        <div class="formulario" id="loginForm">
+            <h2>Iniciar Sesión</h2>
+            <form id="formLogin">
+                <div class="campo">
+                    <label for="loginUsuario">Usuario:</label>
+                    <input type="text" id="loginUsuario" placeholder="Ingresa tu usuario">
+                </div>
+                <div class="campo">
+                    <label for="loginPassword">Contraseña:</label>
+                    <input type="password" id="loginPassword" placeholder="Ingresa tu contraseña">
+                </div>
+                <button type="submit">Entrar</button>
+            </form>
+            <p class="enlace">¿No tienes cuenta? <a href="#" id="mostrarRegistro">Regístrate</a></p>
+            <p class="enlace"><a href="casco.html">
+        </div>
+
+        <div class="formulario oculto" id="registroForm">
+            <h2>Registro</h2>
+            <form id="formRegistro">
+                <div class="campo">
+                    <label for="regNombre">Nombre completo:</label>
+                    <input type="text" id="regNombre" placeholder="Tu nombre">
+                </div>
+                <div class="campo">
+                    <label for="regUsuario">Usuario:</label>
+                    <input type="text" id="regUsuario" placeholder="Elige un usuario">
+                </div>
+                <div class="campo">
+                    <label for="regPassword">Contraseña:</label>
+                    <input type="password" id="regPassword" placeholder="Crea una contraseña">
+                </div>
+                <button type="submit">Registrarse</button>
+            </form>
+            <p class="enlace">¿Ya tienes cuenta? <a href="#" id="mostrarLogin">Inicia Sesión</a></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
