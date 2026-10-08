@@ -72,9 +72,9 @@ if (btnTexto) {
 const imagen = document.getElementById('imagenIntercambio');
 const btnImagen = document.getElementById('btnImagen');
 const imagenes = [
-    { src: 'img/casco1.jpg', alt: 'Casco abierto' },
-    { src: 'img/casco2.jpg', alt: 'Casco cerrado' },
-    { src: 'img/casco3.jpg', alt: 'estereeg' }
+    { src: 'casco1.jpg', alt: 'Casco abierto' },
+    { src: 'casco2.jpg', alt: 'Casco cerrado' },
+    { src: 'casco3.jpg', alt: 'ester eeg' }
 ];
 let imagenActual = 0;
 
